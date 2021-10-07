@@ -45,10 +45,14 @@ https://realpython.com/python-scipy-fft/
 ![image](https://user-images.githubusercontent.com/43317025/136463785-9103f757-8680-48d8-b48c-8d665da542de.png)
 
 **DeepSleepNet Model:**
- Using the github Implementaiton of the model I was able to Train the Model and Use it to the Predict on the validation set. It was done using python Scripts and Data Downloaded Externally
+ Using the github Implementaiton of the model I was able to Train the Model and Use it to the Predict on the validation set. It was done using python Scripts and Data Downloaded Externally.Faced Issues with the code implementation being written on tensorflow1 and therefore many parts of the code being deprecated. The model had a loss of 0.695 and accuracy of 0.777 for the validation data set. The model had been trained for 10 pretrained epochs and 10 epochs for finetuning
  
  Documentation Referred to for DeepSleepNet Model:
  
  https://github.com/akaraspt/deepsleepnet
  
  https://mne.tools/stable/auto_tutorials/clinical/60_sleep.html
+ 
+ https://www.tensorflow.org/addons/api_docs/python/tfa
+ 
+ https://www.tensorflow.org/api_docs/python/tf/compat/v1
